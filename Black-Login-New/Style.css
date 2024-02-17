@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.text-wrapper {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform: translateX(-50%);
+    font-size: 80px;
+    font-weight: bold;  
+}
+
+.p {
+    position: absolute;
+    top: 28%;
+    left: 25%;
+    transform: translateX(-50%);
+    font-size: 15px; 
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+}
+
+.text-wrapper{
+    font-family: "Oswald", sans-serif;
+}
+
+
+/*Input*/
+.input-top{
+    position: absolute;
+    top: 35%;
+    left: 14%;
+  }
+  body {
+      font-family: Arial, sans-serif;
+  }
+
+
+
+  .input-group {
+      margin-bottom: 20px;
+      position: relative;
+  }
+  .input-group i {
+      position: absolute;
+      left: 10px; /* 调整图标位置 */
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  .input-group input {
+      width: 300px; /* 调整宽度 */
+      height: 40px;
+      padding-left: 40px; /* 调整左侧填充 */
+      border-radius: 10px;
+      font-family: "Oswald", sans-serif;
+  }
+
+  .login-button button{
+    width: 345px;
+    height: 40px;
+    background-color: rgb(38, 38, 38);
+    color: azure;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .Login-p {
+    position:absolute;
+    left: 20%;
+    top: 60%;
+    font-size: 18px;
+    
+}
+
+/*Button*/
+.button-group {
+    position: absolute;
+    left: 14%;
+    top: 70%;
+}
+.button-group button {
+    width: 345px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* 将边缘改成圆形 */
+    border: 1px solid black; /* 设置黑色边框 */
+    background-color: transparent; /* 设置透明背景 */
+    color: black; /* 设置文字颜色 */
+    padding: 5px 15px; /* 设置内边距 */
+    font-size: 16px; /* 设置字体大小 */
+    cursor: pointer; /* 设置鼠标指针样式为手型 */
+    font-family: "Oswald", sans-serif;
+}
+
+.button-register a {
+    position: absolute;
+    right: 0%;
+    background-color: transparent; /* 将背景颜色设置为透明 */
+    border: none; /* 可选：去除边框 */
+    padding: 10px 0; /* 增加顶部和底部填充，保持左右填充为0 */
+    cursor: pointer; /* 添加指示符表示按钮 */
+}
+
+.button-register a:hover::after {
+    content: " "; /* 添加一个内容占位符 */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: solid transparent;
+    border-top-color: #000; /* 指示符颜色 */
+    border-width: 6px; /* 指示符大小 */
+}
+
+.button-group button img {
+    width: 20px; /* 调整图像宽度 */
+    vertical-align: middle; /* 垂直居中 */
+    margin-right: 5px; /* 设置图像与文字之间的间距 */
+}
+
+.button-register a{
+    color: brown;
+}
+
+/*image-right*/
+
+.right-image {
+    position: absolute;
+    left: 50%;
+    transform: scale(0.538);
+    transform-origin: top left; /* 可选：设置缩放的原点为左上角 */
+}
+
+/*register-page*/
+
+.button-group-one {
+    position: absolute;
+    left: 14%;
+    top: 80%;
+}
+.button-group-one button {
+    width: 345px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* 将边缘改成圆形 */
+    border: 1px solid black; /* 设置黑色边框 */
+    background-color: transparent; /* 设置透明背景 */
+    color: black; /* 设置文字颜色 */
+    padding: 5px 15px; /* 设置内边距 */
+    font-size: 16px; /* 设置字体大小 */
+    cursor: pointer; /* 设置鼠标指针样式为手型 */
+    font-family: "Oswald", sans-serif;
+}
+
+.button-group-one button img {
+    width: 20px; /* 调整图像宽度 */
+    vertical-align: middle; /* 垂直居中 */
+    margin-right: 5px; /* 设置图像与文字之间的间距 */
+}
+
+.right-image-one{
+    position: absolute;
+    left: 50%;
+    transform: scale(0.538);
+    transform-origin: top left; /* 可选：设置缩放的原点为左上角 */
+}
+
+
+
+
+  
+
+
+
+
